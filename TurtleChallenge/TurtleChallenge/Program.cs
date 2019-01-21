@@ -32,6 +32,9 @@ namespace TurtleChallenge
 
                turtle.Move();
                CheckTurtleStatus(sequenceNumber, gameSettings.Board, turtle.Coordinate);
+               
+               Console.WriteLine("Press any key to exit");
+               Console.ReadLine();
             }
         }
 
