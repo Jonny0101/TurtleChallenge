@@ -31,11 +31,10 @@ namespace TurtleChallenge
                 }
 
                turtle.Move();
-               CheckTurtleStatus(sequenceNumber, gameSettings.Board, turtle.Coordinate);
-               
-               Console.WriteLine("Press any key to exit");
-               Console.ReadLine();
+               CheckTurtleStatus(sequenceNumber, gameSettings.Board, turtle.Coordinate)
             }
+                Console.WriteLine("Press any key to exit");
+                Console.ReadLine();
         }
 
         public static void CheckTurtleStatus(int sequenceNumber, BoardSettings settings, Coordinate turtleCoordinates)
