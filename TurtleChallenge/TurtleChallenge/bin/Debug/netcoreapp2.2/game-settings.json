@@ -1,0 +1,23 @@
+﻿{
+  "board": {
+    "mines": [
+      {
+        "x": "1",
+        "y": "2" 
+      }
+    ],
+    "height": "3",
+    "width": "4",
+    "exit": {
+      "x": "1",
+      "y": "2" 
+    } 
+  },
+  "turtle": {
+    "start": {
+      "x": "1",
+      "y": "2" 
+    },
+    "direction": "North"  
+  }
+}
